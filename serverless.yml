@@ -1,0 +1,9 @@
+service: hello_python
+
+provider:
+  name: aws
+  runtime: python3.6
+
+functions:
+  hello:
+    handler: hello.lambda_handler
